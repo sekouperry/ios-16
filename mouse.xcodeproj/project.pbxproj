@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493CDE6D150CAAC500F5FAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493CDE6C150CAAC500F5FAE5 /* Foundation.framework */; };
+		493CDE70150CAAC500F5FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CDE6F150CAAC500F5FAE5 /* main.m */; };
+		493CDE74150CAAC500F5FAE5 /* mouse.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 493CDE73150CAAC500F5FAE5 /* mouse.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		493CDE66150CAAC400F5FAE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				493CDE74150CAAC500F5FAE5 /* mouse.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		493CDE68150CAAC400F5FAE5 /* mouse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mouse; sourceTree = BUILT_PRODUCTS_DIR; };
+		493CDE6C150CAAC500F5FAE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		493CDE6F150CAAC500F5FAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		493CDE72150CAAC500F5FAE5 /* mouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mouse-Prefix.pch"; sourceTree = "<group>"; };
+		493CDE73150CAAC500F5FAE5 /* mouse.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mouse.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493CDE65150CAAC400F5FAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493CDE6D150CAAC500F5FAE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493CDE5D150CAAC400F5FAE5 = {
+			isa = PBXGroup;
+			children = (
+				493CDE6E150CAAC500F5FAE5 /* mouse */,
+				493CDE6B150CAAC400F5FAE5 /* Frameworks */,
+				493CDE69150CAAC400F5FAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		493CDE69150CAAC400F5FAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				493CDE68150CAAC400F5FAE5 /* mouse */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		493CDE6B150CAAC400F5FAE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				493CDE6C150CAAC500F5FAE5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		493CDE6E150CAAC500F5FAE5 /* mouse */ = {
+			isa = PBXGroup;
+			children = (
+				493CDE6F150CAAC500F5FAE5 /* main.m */,
+				493CDE73150CAAC500F5FAE5 /* mouse.1 */,
+				493CDE71150CAAC500F5FAE5 /* Supporting Files */,
+			);
+			path = mouse;
+			sourceTree = "<group>";
+		};
+		493CDE71150CAAC500F5FAE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				493CDE72150CAAC500F5FAE5 /* mouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493CDE67150CAAC400F5FAE5 /* mouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493CDE77150CAAC500F5FAE5 /* Build configuration list for PBXNativeTarget "mouse" */;
+			buildPhases = (
+				493CDE64150CAAC400F5FAE5 /* Sources */,
+				493CDE65150CAAC400F5FAE5 /* Frameworks */,
+				493CDE66150CAAC400F5FAE5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mouse;
+			productName = mouse;
+			productReference = 493CDE68150CAAC400F5FAE5 /* mouse */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493CDE5F150CAAC400F5FAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 493CDE62150CAAC400F5FAE5 /* Build configuration list for PBXProject "mouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 493CDE5D150CAAC400F5FAE5;
+			productRefGroup = 493CDE69150CAAC400F5FAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493CDE67150CAAC400F5FAE5 /* mouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493CDE64150CAAC400F5FAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493CDE70150CAAC500F5FAE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		493CDE75150CAAC500F5FAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		493CDE76150CAAC500F5FAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		493CDE78150CAAC500F5FAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mouse/mouse-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		493CDE79150CAAC500F5FAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mouse/mouse-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493CDE62150CAAC400F5FAE5 /* Build configuration list for PBXProject "mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493CDE75150CAAC500F5FAE5 /* Debug */,
+				493CDE76150CAAC500F5FAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493CDE77150CAAC500F5FAE5 /* Build configuration list for PBXNativeTarget "mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493CDE78150CAAC500F5FAE5 /* Debug */,
+				493CDE79150CAAC500F5FAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 493CDE5F150CAAC400F5FAE5 /* Project object */;
+}
